@@ -3,7 +3,9 @@ import threading
 import random
 import time
 
+
 class TwinkleCat:
+    
     def __init__(self, root):
         self.root = root
         self.root.attributes("-fullscreen", True)
